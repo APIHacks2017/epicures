@@ -1,14 +1,35 @@
 var reviews = [];
+var selected_restaurant = 0;
+
+var options = {
+    url: function() {
+        return "http://localhost:8000/scripts_and_data/restaurants_ids.json";
+    },
+    getValue: "name",
+    list: {
+    onSelectItemEvent: function() {
+        var index = $("#search-box").getSelectedItemData().id;
+        console.log(index);
+        selected_restaurant = index;
+    }}
+};
+
+$(document).ready( function() {
+    $("#search-box").easyAutocomplete(options);
+});
+
 
 getData = function() {
     $.ajax({
         dataType: "json",
-        url: "http://localhost:8000/scripts_and_data/data.json",
+        url: "http://localhost:8000/scripts_and_data/reviews_with_sentiments.json",
         }).done(function(data) {
-            $.each(data, function(index, obj) {
-                obj[0] = new Date(1000*obj[0].toString()).toLocaleDateString();
+
+            var all_reviews = _.find(data, function(restaurant) { return restaurant[selected_restaurant]}).reviews;
+            $.each(all_reviews, function(index, obj) {
+                var date = new Date(obj.datetime);
+                reviews.push(new Array(Date.UTC(date.getFullYear(),date.getMonth(), date.getDate()), obj.rating));
             });
-            reviews=data;
             drawChart()
         });
 };
@@ -36,7 +57,9 @@ drawChart = function() {
         yAxis: {
             title: {
                 text: 'Rating'
-            }
+            },
+            max: 5,
+            min: 0
         },
         legend: {
             enabled: false
