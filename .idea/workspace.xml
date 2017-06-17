@@ -29,28 +29,28 @@
       <file leaf-file-name="reviews_with_sentiments.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="4834" column="1" lean-forward="false" selection-start-line="4834" selection-start-column="1" selection-end-line="4834" selection-end-column="1" />
+            <state relative-caret-position="-6693">
+              <caret line="635" column="5" lean-forward="true" selection-start-line="635" selection-start-column="5" selection-end-line="635" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="330">
+              <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+            <state relative-caret-position="1575">
+              <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -128,6 +128,7 @@
       <find>datetime</find>
       <find>&quot;sentiment&quot;: &quot;N&quot;</find>
       <find>&quot;sentiment&quot;: &quot;N+&quot;</find>
+      <find>mapli</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;sentiment&quot;: 1</replace>
@@ -144,8 +145,8 @@
         <option value="$PROJECT_DIR$/scripts_and_data/convert.rb" />
         <option value="$PROJECT_DIR$/scripts_and_data/restaurants_ids.json" />
         <option value="$PROJECT_DIR$/frontEnd/index.html" />
-        <option value="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
         <option value="$PROJECT_DIR$/frontEnd/app.js" />
+        <option value="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
       </list>
     </option>
   </component>
@@ -247,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497696245759</updated>
-      <workItem from="1497696246933" duration="8824000" />
+      <workItem from="1497696246933" duration="10093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8824000" />
+    <option name="totallyTimeSpent" value="10093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="975" extended-state="0" />
@@ -398,22 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="4834" column="1" lean-forward="false" selection-start-line="4834" selection-start-column="1" selection-end-line="4834" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/highcharts.src.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -424,8 +409,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        <state relative-caret-position="1575">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6693">
+          <caret line="635" column="5" lean-forward="true" selection-start-line="635" selection-start-column="5" selection-end-line="635" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding />
         </state>
       </provider>

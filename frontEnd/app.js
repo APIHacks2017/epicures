@@ -1,5 +1,6 @@
 var reviews = [];
 var sentiments = [];
+var service_sentiments = [];
 
 var all_reviews = [];
 var selected_restaurant = 0;
@@ -33,22 +34,24 @@ getData = function() {
                 var date = new Date(obj.datetime);
                 reviews.push(new Array(Date.UTC(date.getFullYear(),date.getMonth(), date.getDate()), obj.rating));
                 sentiments.push(new Array(Date.UTC(date.getFullYear(),date.getMonth(), date.getDate()), obj.sentiment));
+                service_sentiments.push(new Array(Date.UTC(date.getFullYear(),date.getMonth(), date.getDate()), obj.service_sentiment));
             });
             drawChart();
             drawSentimentChart();
+            drawServiceSentimentChart();
             showReviews();
         });
 };
 
-drawSentimentChart = function() {
+drawServiceSentimentChart = function() {
 
-    $('.sentiment-chart').css("display","block");
-    Highcharts.chart('sentiment-container', {
+    $('.service-sentiment-chart').css("display","block");
+    Highcharts.chart('service-sentiment-container', {
         chart: {
             zoomType: 'x'
         },
         title: {
-            text: 'Sentiments over time'
+            text: 'Service sentiments over time'
         },
         subtitle: {
             text: document.ontouchstart === undefined ?
@@ -62,7 +65,73 @@ drawSentimentChart = function() {
         },
         yAxis: {
             title: {
-                text: 'Sentiment of reviews'
+                text: 'Sentiment of reviews about service'
+            },
+            max: 5,
+            min: 0
+        },
+        legend: {
+            enabled: false
+        },
+        plotOptions: {
+            area: {
+                fillColor: {
+                    linearGradient: {
+                        x1: 0,
+                        y1: 0,
+                        x2: 0,
+                        y2: 300
+                    },
+                    stops: [
+                        [0, Highcharts.getOptions().colors[0]],
+                        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                    ]
+                },
+                marker: {
+                    radius: 2
+                },
+                lineWidth: 1,
+                states: {
+                    hover: {
+                        lineWidth: 1
+                    }
+                },
+                threshold: null
+            }
+        },
+
+        series: [{
+            type: 'area',
+            name: 'Sentiments',
+            data: service_sentiments
+        }]
+    });
+
+};
+
+drawSentimentChart = function() {
+
+    $('.sentiment-chart').css("display","block");
+    Highcharts.chart('sentiment-container', {
+        chart: {
+            zoomType: 'x'
+        },
+        title: {
+            text: 'Food sentiments over time'
+        },
+        subtitle: {
+            text: document.ontouchstart === undefined ?
+                'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+        },
+        xAxis: {
+            title: {
+                text: 'Period'
+            },
+            type: 'datetime'
+        },
+        yAxis: {
+            title: {
+                text: 'Sentiment of reviews about food'
             },
             max: 5,
             min: 0
