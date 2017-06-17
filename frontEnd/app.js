@@ -44,7 +44,7 @@ getData = function() {
 };
 
 drawServiceSentimentChart = function() {
-
+    $('.service-sentiment-container').empty();
     $('.service-sentiment-chart').css("display","block");
     Highcharts.chart('service-sentiment-container', {
         chart: {
@@ -110,7 +110,7 @@ drawServiceSentimentChart = function() {
 };
 
 drawSentimentChart = function() {
-
+    $('.sentiment-container').empty();
     $('.sentiment-chart').css("display","block");
     Highcharts.chart('sentiment-container', {
         chart: {
@@ -176,6 +176,7 @@ drawSentimentChart = function() {
 };
 
 drawChart = function() {
+    $('.container').empty();
     $('.chart').css("display","block");
     $('.search-container').css("padding-top","50px");
     $('.logo').css("padding-top","50px");
@@ -242,6 +243,7 @@ drawChart = function() {
 };
 
 showReviews = function() {    
+    $('#reviews').empty();
     $('#reviews').append("<h1> Top reviews </h1>");
 
     for(var i=0; i<5; i++) {
