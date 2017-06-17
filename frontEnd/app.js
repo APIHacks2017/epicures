@@ -1,4 +1,5 @@
 var reviews = [];
+var all_reviews = [];
 var selected_restaurant = 0;
 
 var options = {
@@ -25,12 +26,13 @@ getData = function() {
         url: "http://localhost:8000/scripts_and_data/reviews_with_sentiments.json",
         }).done(function(data) {
 
-            var all_reviews = _.find(data, function(restaurant) { return restaurant[selected_restaurant]}).reviews;
+            all_reviews = _.find(data, function(restaurant) { return restaurant[selected_restaurant]}).reviews;
             $.each(all_reviews, function(index, obj) {
                 var date = new Date(obj.datetime);
                 reviews.push(new Array(Date.UTC(date.getFullYear(),date.getMonth(), date.getDate()), obj.rating));
             });
-            drawChart()
+            drawChart();
+            showReviews();
         });
 };
 
@@ -98,3 +100,13 @@ drawChart = function() {
         }]
     });
 };
+
+showReviews = function() {
+    $('#reviews').append("<h2> Top reviews </h2>");
+
+    for(var i=0; i<5; i++) {
+        $('#reviews').append( "<div class='review'> <div class='rating'> <b> Rating </b> " +all_reviews[i].rating + "<br/>" +  all_reviews[i].rating_text + "</div>");
+    }
+
+
+}
