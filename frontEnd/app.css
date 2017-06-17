@@ -1,9 +1,23 @@
-.chart .sentiment-container {
+.chart, .sentiment-container, .service-sentiment-container {
   min-width: 600px;
   height: 400px;
   margin: 0 auto;
   display: none;
   padding-top: 50px;
+}
+
+.logo { 
+  font-family: "Brush Script MT", cursive;
+  font-size: 40px;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold;
+  line-height: 40px;
+  padding-bottom: 50px;
+  padding-top: 250px;
+  left: 300px;
+  position: absolute;
+  transition: all 0.5s ease;
 }
 
 .search-container {
@@ -44,9 +58,10 @@
   font-size: 25px;
   height: 25px;
   width: 100px;
-  margin: 0 auto;
   position: relative;
   text-shadow: 0 1px 0 #a2a2a2;
+  top: 10px;
+  left: 55px;
 } 
 .star-ratings-css::before { 
   content: '★★★★★';

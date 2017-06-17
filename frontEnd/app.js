@@ -178,6 +178,7 @@ drawSentimentChart = function() {
 drawChart = function() {
     $('.chart').css("display","block");
     $('.search-container').css("padding-top","50px");
+    $('.logo').css("padding-top","50px");
     Highcharts.chart('container', {
         chart: {
             zoomType: 'x'
@@ -241,7 +242,7 @@ drawChart = function() {
 };
 
 showReviews = function() {    
-    $('#reviews').append("<h2> Top reviews </h2>");
+    $('#reviews').append("<h1> Top reviews </h1>");
 
     for(var i=0; i<5; i++) {
         $('#reviews').append( "<div class='review'> <div class='rating'> <div class='star-ratings-css' title='" + all_reviews[i].rating + "'></div><b> Rating </b> <br/>" +  all_reviews[i].rating_text + "</div>");
