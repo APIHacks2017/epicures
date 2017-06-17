@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95bb37fb-1fba-416e-a8e0-f7eb05080c35" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/app.js" afterPath="$PROJECT_DIR$/frontEnd/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/index.html" afterPath="$PROJECT_DIR$/frontEnd/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" afterPath="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,17 +24,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviews_with_sentiments.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reviews_with_sentiments.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6693">
-              <caret line="635" column="5" lean-forward="true" selection-start-line="635" selection-start-column="5" selection-end-line="635" selection-end-column="5" />
+            <state relative-caret-position="-3206">
+              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -51,7 +49,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1575">
               <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
-              <folding />
+              <folding>
+                <marker date="1497707797000" expanded="true" signature="135:282" ph="{&quot;getValue&quot;: &quot;name&quot;...}" />
+                <marker date="1497707797000" expanded="true" signature="276:282" ph="{...}" />
+                <marker date="1497707797000" expanded="true" signature="6904:6959" ph="{...}" />
+                <marker date="1497707797000" expanded="true" signature="6904:6963" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,8 +147,8 @@
         <option value="$PROJECT_DIR$/scripts_and_data/reviews.json" />
         <option value="$PROJECT_DIR$/scripts_and_data/convert.rb" />
         <option value="$PROJECT_DIR$/scripts_and_data/restaurants_ids.json" />
-        <option value="$PROJECT_DIR$/frontEnd/index.html" />
         <option value="$PROJECT_DIR$/frontEnd/app.js" />
+        <option value="$PROJECT_DIR$/frontEnd/index.html" />
         <option value="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
       </list>
     </option>
@@ -248,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497696245759</updated>
-      <workItem from="1497696246933" duration="10093000" />
+      <workItem from="1497696246933" duration="10209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10093000" />
+    <option name="totallyTimeSpent" value="10209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="975" extended-state="0" />
@@ -411,15 +414,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6693">
-          <caret line="635" column="5" lean-forward="true" selection-start-line="635" selection-start-column="5" selection-end-line="635" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1497707797000" expanded="true" signature="135:282" ph="{&quot;getValue&quot;: &quot;name&quot;...}" />
+            <marker date="1497707797000" expanded="true" signature="276:282" ph="{...}" />
+            <marker date="1497707797000" expanded="true" signature="6904:6959" ph="{...}" />
+            <marker date="1497707797000" expanded="true" signature="6904:6963" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,6 +427,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3206">
+          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
           <folding />
         </state>
       </provider>
