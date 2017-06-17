@@ -1,5 +1,18 @@
-$.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=usdeur.json&callback=?', function (data) {
+var reviews = [];
+$(document).ready(function() {
+    $.ajax({
+        dataType: "json",
+        url: "http://localhost:8000/frontEnd/data.json",
+        }).done(function(data) {
+            $.each(data, function(index, obj) {
+                obj[0] = new Date(1000*obj[0].toString()).toLocaleDateString();
+            });
+            reviews=data;
+            drawChart()
+        });
+});
 
+drawChart = function() {
     Highcharts.chart('container', {
         chart: {
             zoomType: 'x'
@@ -55,7 +68,7 @@ $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=usdeur.jso
         series: [{
             type: 'area',
             name: 'User Ratings',
-            data: data
+            data: reviews,
         }]
     });
-});
+};
