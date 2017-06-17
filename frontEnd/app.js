@@ -71,7 +71,7 @@ drawChart = function() {
         series: [{
             type: 'area',
             name: 'User Ratings',
-            data: reviews,
+            data: reviews
         }]
     });
 };
