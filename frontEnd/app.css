@@ -1,5 +1,5 @@
-.chart, .sentiment-container, .service-sentiment-container {
-  min-width: 600px;
+.chart, #sentiment-container, #service-sentiment-container {
+  min-width: 700px;
   height: 400px;
   margin: 0 auto;
   display: none;
@@ -14,8 +14,8 @@
   font-weight: bold;
   line-height: 40px;
   padding-bottom: 50px;
-  padding-top: 250px;
-  left: 300px;
+  padding-top: 400px;
+  left: 400px;
   position: absolute;
   transition: all 0.5s ease;
 }
@@ -23,7 +23,7 @@
 .search-container {
   display: flex;
   justify-content: space-around;  
-  padding-top: 250px;
+  padding-top: 400px;
   width: 500px;
   margin: auto;
   transition: all 0.5s ease;
@@ -50,8 +50,12 @@
   text-decoration: none;
   border-radius: 2px;
 }
-
-
+.senti {
+  display: flex;
+}
+.senti#sentiment-container, .senti#service-sentiment-container {
+  flex: 1;
+}
 .star-ratings-css {
   unicode-bidi: bidi-override;
   color: #c5c5c5;
