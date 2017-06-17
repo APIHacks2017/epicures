@@ -3,7 +3,7 @@ var reviews = [];
 getData = function() {
     $.ajax({
         dataType: "json",
-        url: "http://localhost:8000/frontEnd/data.json",
+        url: "http://localhost:8000/scripts_and_data/data.json",
         }).done(function(data) {
             $.each(data, function(index, obj) {
                 obj[0] = new Date(1000*obj[0].toString()).toLocaleDateString();
