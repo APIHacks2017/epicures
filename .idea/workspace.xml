@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95bb37fb-1fba-416e-a8e0-f7eb05080c35" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" afterPath="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts_and_data/restaurants_ids.json" afterPath="$PROJECT_DIR$/scripts_and_data/restaurants_ids.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviews_with_sentiments.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reviews_with_sentiments.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3206">
-              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            <state relative-caret-position="2250">
+              <caret line="150" column="21" lean-forward="false" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -37,24 +37,19 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontEnd/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
-              <folding>
-                <marker date="1497707797000" expanded="true" signature="135:282" ph="{&quot;getValue&quot;: &quot;name&quot;...}" />
-                <marker date="1497707797000" expanded="true" signature="276:282" ph="{...}" />
-                <marker date="1497707797000" expanded="true" signature="6904:6959" ph="{...}" />
-                <marker date="1497707797000" expanded="true" signature="6904:6963" ph="{...}" />
-              </folding>
+            <state relative-caret-position="-2412">
+              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +77,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="608">
+              <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -102,8 +97,8 @@
       <file leaf-file-name="restaurants_ids.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts_and_data/restaurants_ids.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -132,6 +127,9 @@
       <find>&quot;sentiment&quot;: &quot;N&quot;</find>
       <find>&quot;sentiment&quot;: &quot;N+&quot;</find>
       <find>mapli</find>
+      <find>getData</find>
+      <find>coal</find>
+      <find>AB's - Absolute Barbecues</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;sentiment&quot;: 1</replace>
@@ -146,10 +144,11 @@
         <option value="$PROJECT_DIR$/scripts_and_data/data.html" />
         <option value="$PROJECT_DIR$/scripts_and_data/reviews.json" />
         <option value="$PROJECT_DIR$/scripts_and_data/convert.rb" />
-        <option value="$PROJECT_DIR$/scripts_and_data/restaurants_ids.json" />
-        <option value="$PROJECT_DIR$/frontEnd/app.js" />
-        <option value="$PROJECT_DIR$/frontEnd/index.html" />
         <option value="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
+        <option value="$PROJECT_DIR$/scripts_and_data/restaurants_ids.json" />
+        <option value="$PROJECT_DIR$/frontEnd/app.css" />
+        <option value="$PROJECT_DIR$/frontEnd/index.html" />
+        <option value="$PROJECT_DIR$/frontEnd/app.js" />
       </list>
     </option>
   </component>
@@ -251,12 +250,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497696245759</updated>
-      <workItem from="1497696246933" duration="10209000" />
+      <workItem from="1497696246933" duration="11875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10209000" />
+    <option name="totallyTimeSpent" value="11875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="975" extended-state="0" />
@@ -362,26 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/EasyAutocomplete/maps/easy-autocomplete.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts_and_data/restaurants_ids.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -410,31 +393,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/app.js">
+    <entry file="file://$PROJECT_DIR$/frontEnd/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
-          <folding>
-            <marker date="1497707797000" expanded="true" signature="135:282" ph="{&quot;getValue&quot;: &quot;name&quot;...}" />
-            <marker date="1497707797000" expanded="true" signature="276:282" ph="{...}" />
-            <marker date="1497707797000" expanded="true" signature="6904:6959" ph="{...}" />
-            <marker date="1497707797000" expanded="true" signature="6904:6963" ph="{...}" />
-          </folding>
+        <state relative-caret-position="608">
+          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3206">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        <state relative-caret-position="2250">
+          <caret line="150" column="21" lean-forward="false" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_and_data/restaurants_ids.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2412">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding />
         </state>
       </provider>
