@@ -1,5 +1,36 @@
 .chart {
-	min-width: 600px;		
-	height: 400px;
-	margin: 0 auto;
+  min-width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  display: none;
+  padding-top: 50px;
+}
+
+.search-container {
+  display: flex;  
+  padding-top: 250px;
+  width: 700px;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+.search-container #search-box {
+  margin: auto;
+  flex: 0 1 60%;
+  align-self: flex-start;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+.search-container #search-button {
+	flex: 0 1 10%;
+  align-self: flex-end;
+  font-size: 100%;
+  padding: .5em 1em;
+  color: #444;
+  color: rgba(0,0,0,.8);
+  border: 1px solid #999;
+  border: transparent;
+  background-color: #E6E6E6;
+  text-decoration: none;
+  border-radius: 2px;
 }

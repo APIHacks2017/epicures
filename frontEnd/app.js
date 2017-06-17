@@ -1,5 +1,6 @@
 var reviews = [];
-$(document).ready(function() {
+
+getData = function() {
     $.ajax({
         dataType: "json",
         url: "http://localhost:8000/frontEnd/data.json",
@@ -10,9 +11,11 @@ $(document).ready(function() {
             reviews=data;
             drawChart()
         });
-});
+};
 
 drawChart = function() {
+    $('.chart').css("display","block");
+    $('.search-container').css("padding-top","50px");
     Highcharts.chart('container', {
         chart: {
             zoomType: 'x'
