@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95bb37fb-1fba-416e-a8e0-f7eb05080c35" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/app.js" afterPath="$PROJECT_DIR$/frontEnd/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontEnd/index.html" afterPath="$PROJECT_DIR$/frontEnd/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" afterPath="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="get_data.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts_and_data/get_data.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="convert.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts_and_data/convert.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,8 +29,8 @@
       <file leaf-file-name="reviews_with_sentiments.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="99" column="20" lean-forward="false" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="20" />
+            <state relative-caret-position="450">
+              <caret line="4834" column="1" lean-forward="false" selection-start-line="4834" selection-start-column="1" selection-end-line="4834" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -47,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -57,8 +49,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontEnd/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="104" column="51" lean-forward="false" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+            <state relative-caret-position="542">
+              <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="highcharts.src.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/highcharts.src.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="8020" column="8" lean-forward="false" selection-start-line="8020" selection-start-column="8" selection-end-line="8020" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -124,7 +126,12 @@
       <find>&lt;time</find>
       <find>&quot;18</find>
       <find>datetime</find>
+      <find>&quot;sentiment&quot;: &quot;N&quot;</find>
+      <find>&quot;sentiment&quot;: &quot;N+&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;sentiment&quot;: 1</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,8 +143,8 @@
         <option value="$PROJECT_DIR$/scripts_and_data/reviews.json" />
         <option value="$PROJECT_DIR$/scripts_and_data/convert.rb" />
         <option value="$PROJECT_DIR$/scripts_and_data/restaurants_ids.json" />
-        <option value="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
         <option value="$PROJECT_DIR$/frontEnd/index.html" />
+        <option value="$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json" />
         <option value="$PROJECT_DIR$/frontEnd/app.js" />
       </list>
     </option>
@@ -240,12 +247,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497696245759</updated>
-      <workItem from="1497696246933" duration="7585000" />
+      <workItem from="1497696246933" duration="8824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7585000" />
+    <option name="totallyTimeSpent" value="8824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="975" extended-state="0" />
@@ -254,6 +261,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -392,24 +400,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts_and_data/reviews_with_sentiments.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="99" column="20" lean-forward="false" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="20" />
+        <state relative-caret-position="450">
+          <caret line="4834" column="1" lean-forward="false" selection-start-line="4834" selection-start-column="1" selection-end-line="4834" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/highcharts.src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="8020" column="8" lean-forward="false" selection-start-line="8020" selection-start-column="8" selection-end-line="8020" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="104" column="51" lean-forward="false" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+        <state relative-caret-position="542">
+          <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
           <folding />
         </state>
       </provider>
