@@ -1,4 +1,4 @@
-.chart {
+.chart .sentiment-container {
   min-width: 600px;
   height: 400px;
   margin: 0 auto;
@@ -7,9 +7,10 @@
 }
 
 .search-container {
-  display: flex;  
+  display: flex;
+  justify-content: space-around;  
   padding-top: 250px;
-  width: 700px;
+  width: 500px;
   margin: auto;
   transition: all 0.5s ease;
 }
@@ -20,6 +21,7 @@
   height: 30px;
   border-radius: 3px;
   border: 1px solid;
+  width: 300px;
 }
 .search-container #search-button {
 	flex: 0 1 10%;
@@ -33,4 +35,59 @@
   background-color: #E6E6E6;
   text-decoration: none;
   border-radius: 2px;
+}
+
+
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;  
+} 
+.star-ratings-css::before { 
+  content: '★★★★★';
+  opacity: .3;
+}
+
+[title="1"]::after {
+  width: 20%;
+}
+[title="2"]::after {
+  width: 40%;
+}
+[title="3"]::after {
+  width: 60%;
+}
+[title="4"]::after {
+  width: 80%;
+}
+[title="5"]::after {
+  width: 100%;
+}
+[title="1.5"]::after {
+  width: 30%;
+}
+[title="2.5"]::after {
+  width: 50%;
+}
+[title="3.5"]::after {
+  width: 70%;
+}
+[title="4.5"]::after {
+  width: 90%;
+}
+.star-ratings-css::after {
+  color: gold;
+  content: '★★★★★';
+  text-shadow: 0 1px 0 #ab5414;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  left: 0;
+  top:0;
+  width: attr(rating);
+  overflow: hidden;
 }

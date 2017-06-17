@@ -10,11 +10,11 @@ var options = {
     },
     getValue: "name",
     list: {
-    onSelectItemEvent: function() {
-        var index = $("#search-box").getSelectedItemData().id;
-        console.log(index);
-        selected_restaurant = index;
-    }}
+        onSelectItemEvent: function() {
+            var index = $("#search-box").getSelectedItemData().id;        
+            selected_restaurant = index;            
+        }        
+    }
 };
 
 $(document).ready( function() {
@@ -171,11 +171,11 @@ drawChart = function() {
     });
 };
 
-showReviews = function() {
+showReviews = function() {    
     $('#reviews').append("<h2> Top reviews </h2>");
 
     for(var i=0; i<5; i++) {
-        $('#reviews').append( "<div class='review'> <div class='rating'> <b> Rating </b> " +all_reviews[i].rating + "<br/>" +  all_reviews[i].rating_text + "</div>");
+        $('#reviews').append( "<div class='review'> <div class='rating'> <div class='star-ratings-css' title='" + all_reviews[i].rating + "'></div><b> Rating </b> <br/>" +  all_reviews[i].rating_text + "</div>");
     }
 
 
